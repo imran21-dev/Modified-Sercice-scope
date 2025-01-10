@@ -26,7 +26,7 @@ const ServiceCart = ({service}) => {
          <Link to={`/service-details/${_id}`}>
          <Button variant="contained" className="mt-1 myBtn">See Details <GoArrowRight /></Button>
          </Link>
-         <h2 className="font-medium md:text-base text-sm">Price: ${price}</h2>
+         <h2 className="font-medium md:text-base text-pColor text-sm">${price}</h2>
          </div>
         </div>
       </div>

@@ -30,7 +30,7 @@ const AllServiceCart = ({service}) => {
           <div className="flex items-center justify-between pt-2">
           
           <Link to={`/service-details/${_id}`}><Button variant="contained" className="mt-1 myBtn">See Details <GoArrowRight /></Button></Link>
-          <h2 className="font-medium md:text-base text-sm">Price: ${price}</h2>
+          <h2 className="font-medium text-pColor md:text-base text-sm">${price}</h2>
           </div>
         </div>
       </div>

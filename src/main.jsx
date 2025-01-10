@@ -49,7 +49,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/services',
-        element: <Services></Services>
+        element: <AddServicePrivate><Services></Services></AddServicePrivate>
       },
       {
         path: '/service-details/:id',

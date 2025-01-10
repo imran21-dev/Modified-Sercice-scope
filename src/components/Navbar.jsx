@@ -100,11 +100,11 @@ const Navbar = () => {
               <NavLink to="/" className="navLink">
             Home
           </NavLink>
+          {
+           user && <>
           <NavLink to="/services" className="navLink">
             Services
           </NavLink>
-          {
-           user && <>
            <NavLink to="/add-service" className="navLink">
             Add Service
           </NavLink>
@@ -127,11 +127,11 @@ const Navbar = () => {
           <NavLink to="/" className="navLink">
             Home
           </NavLink>
+          {
+           user && <>
           <NavLink to="/services" className="navLink">
             Services
           </NavLink>
-          {
-           user && <>
            <NavLink to="/add-service" className="navLink">
             Add Service
           </NavLink>
